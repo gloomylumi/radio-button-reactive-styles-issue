@@ -1,0 +1,164 @@
+%heading {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: $liqid-blue;
+}
+
+%red-heading {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: $red;
+}
+
+%sub-heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $light-purple;
+}
+
+%red-sub-heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $red;
+}
+
+%yellow-sub-heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $yellow;
+}
+
+%green-sub-heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $green;
+}
+
+%white-sub-heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $white;
+}
+
+%blue-sub-heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $liqid-blue;
+}
+
+%grey-sub-heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $light-grey;
+}
+
+%feature-description-copy {
+  margin: 0;
+  // font-family: 'Roboto-Thin';
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: $white;
+}
+
+%body-copy {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: $light-grey;
+  letter-spacing: 0.25px;
+}
+
+%button-text {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: $light-grey;
+  letter-spacing: 1px;
+}
+%button-text-highlight {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+%body-copy-blue-highlight {
+  // <p class="blue"></p>
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: $liqid-blue;
+  letter-spacing: 0.5px;
+}
+
+%body-copy-red-highlight {
+  // <p class="red"></p>
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: $red;
+  letter-spacing: 0.5px;
+}
+
+%body-copy-yellow-highlight {
+  // <p class="red"></p>
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: $yellow;
+  letter-spacing: 0.5px;
+}
+
+%body-copy-green-highlight {
+  // <p class="red"></p>
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: $green;
+  letter-spacing: 0.5px;
+}
+
+%body-copy-highlight {
+  // <p class="highlight"></p>
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: $white;
+  letter-spacing: 0.5px;
+}
+
+%input-text {
+  // <p class="highlight"></p>
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: $white;
+  letter-spacing: 0.5px;
+}
+
+%stats-text {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: $blue;
+}
+
+%error-text {
+  margin: 0;
+  font-size: 0.625rem;
+  font-weight: 300;
+  color: $light-red;
+  // letter-spacing: 0.7px;
+}
+
+%emphasis-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}

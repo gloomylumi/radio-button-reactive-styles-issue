@@ -1,0 +1,29 @@
+%relative-block {
+  position: relative;
+  display: block;
+}
+
+// absolute / block
+%absolute-block {
+  position: absolute;
+  display: block;
+}
+
+// center vertically
+%liqid-center-vertical {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// center horizontally
+%liqid-center-horizontal {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// center horizontally AND vertically
+%liqid-center-both {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

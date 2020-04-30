@@ -1,0 +1,92 @@
+// MAIN COLUMN
+%main-colmun-full {
+  @include liqid-size($column-full-width, $grid-size * 1.5);
+
+  @extend %relative-block;
+  @extend %liqid-center-horizontal;
+
+  margin-top: $grid-size;
+}
+
+// HEADER
+%header {
+  h2 {
+    float: left;
+    margin-right: $grid-size;
+  }
+}
+
+// HORIZONTAL DIVIDER
+%horizontal-divider {
+  width: 1px;
+  height: $grid-size * 1.5;
+  margin: 0 5px;
+  border-left: 1px solid $light-grey;
+
+  @extend %relative-block;
+}
+
+%bottom-border {
+  border-bottom: 1px solid $light-grey;
+}
+
+%list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+// BUTTON
+%button-with-border {
+  @extend %button-text;
+
+  position: relative;
+  line-height: $grid-size;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid $light-grey;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+%config-text-input {
+  @extend %input-text;
+  @extend %relative-block;
+
+  height: $grid-size * 1.25;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $light-grey;
+  transition: all 0.3s ease;
+  &:focus {
+    color: $blue;
+    border-bottom: 1px solid $blue;
+    outline: none;
+  }
+  &.invalid {
+    &:focus {
+      border-bottom: 1px solid $red;
+    }
+  }
+}
+%input-label {
+  @extend %body-copy;
+  @extend %relative-block;
+
+  width: 100%;
+  // height: $grid-size;
+  // line-height: $grid-size;
+  color: $light-grey;
+  transition: all 0.3s ease;
+  &.invalid {
+    color: $red;
+  }
+}
+
+%basic-box-shadow {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24), 0 1px 3px rgba(0, 0, 0, 0.32);
+}
+%top-layer-box-shadow {
+  box-shadow: 0 0 10px $black;
+}

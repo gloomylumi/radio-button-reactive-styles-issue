@@ -1,0 +1,101 @@
+// WHITE
+$white: #fff;
+
+// GREY
+$grey: #282828;
+// $grey: #2d2d2d;
+
+// LIST ITEM GREY
+$list-item-grey: lighten($grey, 8%);
+
+// LIGHT GREY
+$light-grey: #9e9e9e;
+
+// SCROLLBAR GREY
+$scroll-grey: #4c4c4c;
+
+// BLACK
+$black: #1c1c1c;
+
+// LIQID BLUE
+$liqid-blue: #00ddfc;
+
+$blue: #00ddfc;
+
+// BUTTON TEAL
+$teal: #51c5b8;
+
+// VIRTUAL LILAC
+$light-purple: #9baffe;
+
+// DIGITAL LAVENDER
+$purple: #626afa;
+
+// DARK PURPLE
+$dark-purple: #332f5e;
+
+// GREEN
+$green: #4fd34f;
+// $green: #4acb4a;
+// $green: #4de64d;
+// $green: #75ff02;
+
+// YELLOW
+$yellow: #f5c10a;
+
+// ORANGE
+$orange: #e08340;
+
+// RED
+// $red: #ff0028;
+$red: #ff6a6a;
+
+// LIGHT-RED (for use with small red text)
+$light-red: #ff7a7a;
+
+// RED-GREY
+$red-grey: #564343;
+
+$hover-background-color: #4849a4;
+
+// BLUE TO PURPLE GRADIENT
+$liqid-gradient-horiz: linear-gradient(
+  to left,
+  $hover-background-color 0%,
+  #626afa 20%,
+  #00ddfc 90%
+);
+// $liqid-gradient-horiz: linear-gradient(to left,#332f5e -10%, #626afa 27%, #00ddfc 90%);
+$liqid-gradient-vert: linear-gradient(to bottom, #626afa 10%, #00ddfc 90%);
+
+// BLUE -> PURPLE GRADIENT NORMAL
+%gradient-bg {
+  background: linear-gradient(to right, #332f5e 0%, #626afa 27%, #00ddfc 90%);
+}
+%gradient-bg-reverse {
+  background: linear-gradient(to left, #332f5e -15%, #626afa 27%, #00ddfc 90%);
+}
+%gradient-bg-light {
+  background: linear-gradient(to right, #332f5e -15%, #626afa 27%, #00ddfc 90%);
+}
+// %gradient-bg {
+//   background: linear-gradient(to left, #626afa 10%, #00ddfc 90%);
+// }
+
+// Pod Colors
+// Green
+$pod-green: #75ff02;
+$green-gradient-vert: linear-gradient(to bottom, #75ff02 10%, #2f5e01 90%);
+
+// Yellow
+$yellow-gradient-vert: linear-gradient(to bottom, #f5c10a 10%, #896903 90%);
+
+// Teal
+$teal: #00839e;
+$teal-gradient-vert: linear-gradient(to bottom, #00839e 10%, #015a66 90%);
+
+// Liqid Blue
+$blue-gradient-vert: linear-gradient(to bottom, #00ddfc 10%, #02909b 90%);
+
+// Purple
+$purple-gradient-vert: linear-gradient(to bottom, #626afa 10%, #3540a0 90%);
